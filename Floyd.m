@@ -17,7 +17,6 @@ R = repmat(1:n, n, 1);
 D = AdjMatrix;
 D(AdjMatrix == 0) = inf;
 
-% 添加注释
 % Iteramos sobre todos los nodos
 for k=1:n
     
@@ -56,3 +55,6 @@ for k=1:n
     end
 end
 end
+
+% 测试效果
+
